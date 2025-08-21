@@ -1,34 +1,26 @@
 
-# 🎥 YouTube AI Video Summarizer
-
+# YouTube AI Video Summarizer
 This is a **Streamlit-based web app** that allows users to paste a YouTube URL, extract its transcript, and generate an AI-powered summary in a selected language. Users can sign up, log in, and view a **history of their summarizations**.
 
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-
+# Getting Started
+1. Clone the Repository:
 ```bash
 git clone https://github.com/yourusername/youtube-summarizer.git
 cd youtube-summarizer
 ```
 
-### 2. Install Dependencies
-
+2. Install Dependencies:
 Make sure you have Python 3.8+ and install requirements:
-
 ```bash
 pip install -r requirements.txt
 ```
-
 If `requirements.txt` doesn't exist, install manually:
-
 ```bash
 pip install streamlit requests beautifulsoup4 youtube-transcript-api openai
 ```
-
 ---
 
-### 3. Set Your OpenAI API Key
+3. Set Your OpenAI API Key
 
 In your environment or directly in `summarize_text.py`:
 
@@ -48,7 +40,7 @@ set OPENAI_API_KEY=your-openai-api-key
 
 ---
 
-## 🗃️ Database Setup
+# Database Setup
 
 Initialize the database using:
 
@@ -66,7 +58,7 @@ You can view/edit the database using [DB Browser for SQLite](https://sqlitebrows
 
 ---
 
-## 💻 Running the App
+# Running the App
 
 Start the Streamlit app with:
 
